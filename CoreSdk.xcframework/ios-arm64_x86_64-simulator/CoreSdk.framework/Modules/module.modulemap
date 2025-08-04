@@ -1,0 +1,5 @@
+framework module "CoreSdk" {
+    umbrella header "CoreSdk.h"
+    export *
+    module * { export * }
+}
